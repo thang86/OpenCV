@@ -21,6 +21,7 @@ cv2.waitKey(0)
 # ve hinh tron
 
 canvas = np.zeros((300,300,3),dtype='uint8')
+print('w: {}, h: {}'.format(canvas.shape[1],canvas.shape[0]))
 (dx,dy) = (canvas.shape[1]//2,canvas.shape[0]//2)
 white =(255,255,255)
 
